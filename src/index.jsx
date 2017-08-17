@@ -1,12 +1,5 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
+import App from './components/App'
 
-class Test extends Component {
-  render () {
-    return (
-      <h1>Boilerplate</h1>
-    )
-  }
-}
-
-render(<Test />, document.getElementById('root'))
+render(<App />, document.getElementById('root'))
